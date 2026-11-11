@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0a0a0a"/>
+  <circle cx="1040" cy="110" r="190" fill="#f4f1ea" opacity="0.045"/>
+  <circle cx="1100" cy="560" r="120" fill="#f4f1ea" opacity="0.03"/>
+  <path d="M90 505 L210 125 L330 505 H270 L210 295 L150 505 Z" fill="#f4f1ea"/>
+  <circle cx="210" cy="492" r="13" fill="#f4f1ea"/>
+  <text x="390" y="345" font-family="sans-serif" font-weight="bold" font-size="230" fill="#f7f4ee" letter-spacing="6">ALI</text>
+  <text x="395" y="425" font-family="sans-serif" font-size="34" fill="#8f8a80" letter-spacing="10">MOTION · BRAND · WEB</text>
+  <text x="395" y="485" font-family="sans-serif" font-size="25" fill="#8f8a80" letter-spacing="4">yahyaaliktk.github.io/gc_yahya</text>
+  <rect x="395" y="515" width="120" height="2" fill="#f4f1ea" opacity="0.5"/>
+</svg>
