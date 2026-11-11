@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-label="ARC MOTORS">
+<defs>
+<linearGradient id="bg7" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#211d16"/><stop offset=".55" stop-color="#14110d"/><stop offset="1" stop-color="#0a0a0a"/>
+</linearGradient>
+<radialGradient id="gl7" cx="50%" cy="38%" r="62%">
+<stop offset="0" stop-color="#f4f1ea" stop-opacity=".20"/><stop offset="1" stop-color="#f4f1ea" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grid7" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#f4f1ea" stroke-opacity=".05"/>
+</pattern>
+</defs>
+<rect width="640" height="400" fill="url(#bg7)"/>
+<rect width="640" height="400" fill="url(#grid7)"/>
+<rect width="640" height="400" fill="url(#gl7)"/>
+
+<path d="M51 280 L230 112 L397 248 L589 80" fill="none" stroke="#f4f1ea" stroke-opacity=".30" stroke-width="1.8"/>
+<path d="M51 328 H589" stroke="#f4f1ea" stroke-opacity=".12"/>
+<circle cx="230" cy="112" r="5" fill="#f4f1ea" opacity=".5"/>
+<circle cx="397" cy="248" r="5" fill="#f4f1ea" opacity=".5"/>
+
+<text x="28" y="374" fill="#f4f1ea" fill-opacity=".55" font-family="Archivo, Arial, sans-serif" font-size="13" letter-spacing="4">ARC MOTORS</text>
+</svg>

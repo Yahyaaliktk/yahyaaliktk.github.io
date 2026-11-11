@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 600" width="480" height="600" role="img" aria-label="INTERFACES THAT BREATHE">
+<defs>
+<linearGradient id="bg13" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#211d16"/><stop offset=".55" stop-color="#14110d"/><stop offset="1" stop-color="#0a0a0a"/>
+</linearGradient>
+<radialGradient id="gl13" cx="50%" cy="38%" r="62%">
+<stop offset="0" stop-color="#f4f1ea" stop-opacity=".20"/><stop offset="1" stop-color="#f4f1ea" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grid13" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#f4f1ea" stroke-opacity=".05"/>
+</pattern>
+</defs>
+<rect width="480" height="600" fill="url(#bg13)"/>
+<rect width="480" height="600" fill="url(#grid13)"/>
+<rect width="480" height="600" fill="url(#gl13)"/>
+
+<circle cx="240.0" cy="240.0" r="48.0" fill="none" stroke="#f4f1ea" stroke-opacity="0.16" stroke-width="1.4"/><circle cx="240.0" cy="240.0" r="86.39999999999999" fill="none" stroke="#f4f1ea" stroke-opacity="0.16" stroke-width="1.4"/><circle cx="240.0" cy="240.0" r="124.80000000000001" fill="none" stroke="#f4f1ea" stroke-opacity="0.16" stroke-width="1.4"/><circle cx="240.0" cy="240.0" r="163.20000000000002" fill="none" stroke="#f4f1ea" stroke-opacity="0.16" stroke-width="1.4"/>
+<path d="M240 60 V432" stroke="#f4f1ea" stroke-opacity=".18"/>
+<path d="M67 240 H413" stroke="#f4f1ea" stroke-opacity=".18"/>
+
+<text x="28" y="574" fill="#f4f1ea" fill-opacity=".55" font-family="Archivo, Arial, sans-serif" font-size="13" letter-spacing="4">INTERFACES THAT BREATHE</text>
+</svg>

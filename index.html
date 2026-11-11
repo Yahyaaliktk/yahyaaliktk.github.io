@@ -1,0 +1,1058 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <title>ALI — Motion, Brand &amp; Creative Studio</title>
+    <meta
+      name="description"
+      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+    />
+    <meta name="robots" content="index,follow" />
+    <link rel="canonical" href="https://yahyaaliktk.github.io/gc_yahya/" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="ALI" />
+    <meta
+      property="og:title"
+      content="ALI — Motion, Brand &amp; Creative Studio"
+    />
+    <meta
+      property="og:description"
+      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+    />
+    <meta property="og:url" content="https://yahyaaliktk.github.io/gc_yahya/" />
+    <meta
+      property="og:image"
+      content="https://yahyaaliktk.github.io/gc_yahya/assets/work-1.svg"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="ALI — Motion, Brand &amp; Creative Studio"
+    />
+    <meta
+      name="twitter:description"
+      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yahyaaliktk.github.io/gc_yahya/assets/work-1.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@300;400;500;600;700&family=Six+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ali",
+        "url": "https://yahyaaliktk.github.io/gc_yahya/",
+        "jobTitle": "Motion Director, Brand Designer & Creative Coder",
+        "telephone": "+92-343-9787366",
+        "sameAs": [
+          "https://www.tiktok.com/@gc_yahya",
+          "https://github.com/Yahyaaliktk"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <!-- ═══════════ LIQUID CURSOR (goo filter) ═══════════ -->
+    <svg class="goo-defs" width="0" height="0" aria-hidden="true">
+      <defs>
+        <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+          <feColorMatrix
+            in="blur"
+            mode="matrix"
+            values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 22 -11"
+            result="goo"
+          />
+          <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+        </filter>
+      </defs>
+    </svg>
+    <div class="goo-cursor" id="gooCursor">
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+      <span class="goo-dot"></span>
+    </div>
+
+    <!-- ═══════════ CUSTOM CURSOR ═══════════ -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"><span>VIEW</span></div>
+
+    <!-- ═══════════ PRELOADER ═══════════ -->
+    <div class="preloader" id="preloader">
+      <div class="preloader-logo">
+        <span class="pl-letter">A</span><span class="pl-letter">L</span>
+      </div>
+      <div class="preloader-counter" id="plCounter">000</div>
+      <div class="preloader-cta">TAP ANYWHERE TO ENTER</div>
+      <div class="preloader-bar"><span id="plBar"></span></div>
+    </div>
+
+    <!-- ═══════════ FIXED HEADER ═══════════ -->
+    <header class="site-header">
+      <a href="#home" class="header-logo hoverable">
+        <span class="logo-text">ALI<span class="logo-dot">.</span></span>
+        <span class="online-pill"><span class="online-dot"></span>STUDIO</span>
+      </a>
+      <div class="header-right">
+        <a href="#contact" class="connect-btn hoverable"
+          ><span>Start a Project</span></a
+        >
+        <button class="menu-toggle hoverable" id="menuToggle" aria-label="Menu">
+          <span class="mt-line"></span>
+          <span class="mt-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ═══════════ FULLSCREEN MENU ═══════════ -->
+    <nav class="menu-overlay" id="menuOverlay">
+      <div class="menu-bg-word">MENU</div>
+      <div class="menu-inner">
+        <ul class="menu-links">
+          <li>
+            <a href="#home" class="menu-link hoverable"
+              ><span class="ml-text">HOME</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#about" class="menu-link hoverable"
+              ><span class="ml-text">ABOUT</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#services" class="menu-link hoverable"
+              ><span class="ml-text">SERVICES</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#work" class="menu-link hoverable"
+              ><span class="ml-text">WORK</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#blog" class="menu-link hoverable"
+              ><span class="ml-text">JOURNAL</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+          <li>
+            <a href="#contact" class="menu-link hoverable"
+              ><span class="ml-text">CONTACT</span
+              ><svg
+                class="ml-plus"
+                width="21"
+                height="22"
+                viewBox="0 0 21 22"
+                fill="none"
+              >
+                <path
+                  d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                  fill="#f4f1ea"
+                /></svg
+            ></a>
+          </li>
+        </ul>
+        <div class="menu-aside">
+          <div class="menu-block">
+            <span class="menu-label">PHONE</span>
+            <a class="hoverable" href="tel:+923439787366">03439787366</a>
+          </div>
+          <div class="menu-block">
+            <span class="menu-label">SOCIAL</span>
+            <div class="menu-socials">
+              <a
+                class="hoverable"
+                href="https://www.tiktok.com/@gc_yahya?_r=1&amp;_t=ZS-9BJeT4EZwq0"
+                target="_blank"
+                rel="noopener"
+                >TIKTOK</a
+              >
+              <a
+                class="hoverable"
+                href="https://wa.me/923439787366"
+                target="_blank"
+                rel="noopener"
+                >WHATSAPP</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ═══════════ MAIN ═══════════ -->
+    <main id="smooth-content">
+      <!-- ───── HERO ───── -->
+      <section class="hero" id="home">
+        <div class="hero-cols">
+          <div class="hero-col">
+            <svg
+              class="hc-plus"
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+            >
+              <path
+                d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                fill="#f4f1ea"
+              />
+            </svg>
+            <div class="hc-word">
+              <span>M</span><span>O</span><span>T</span><span>I</span
+              ><span>O</span><span>N</span>
+            </div>
+          </div>
+          <div class="hero-col">
+            <svg
+              class="hc-plus"
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+            >
+              <path
+                d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                fill="#f4f1ea"
+              />
+            </svg>
+            <div class="hc-word">
+              <span>C</span><span>R</span><span>A</span><span>F</span
+              ><span>T</span>
+            </div>
+          </div>
+          <div class="hero-col">
+            <svg
+              class="hc-plus"
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+            >
+              <path
+                d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                fill="#f4f1ea"
+              />
+            </svg>
+            <div class="hc-word">
+              <span>I</span><span>M</span><span>P</span><span>A</span
+              ><span>C</span><span>T</span>
+            </div>
+          </div>
+          <div class="hero-col hero-col-last">
+            <svg
+              class="hc-plus"
+              width="21"
+              height="22"
+              viewBox="0 0 21 22"
+              fill="none"
+            >
+              <path
+                d="M0 11.8077V10.1923H9.69231V0.5H11.3077V10.1923H21V11.8077H11.3077V21.5H9.69231V11.8077H0Z"
+                fill="#f4f1ea"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-center">
+          <div class="hero-roles" id="heroRoles">
+            <h1 class="hero-role is-active">MOTION DIRECTOR</h1>
+            <h1 class="hero-role">BRAND DESIGNER</h1>
+            <h1 class="hero-role">CREATIVE CODER</h1>
+          </div>
+          <div class="hero-portrait">
+            <img
+              src="assets/uploads/portrait.jpg" onerror="this.onerror=null;this.src='assets/portrait.svg'"
+              alt="Abstract ALI studio portrait"
+              width="600"
+              height="800"
+              decoding="async"
+            />
+            <div class="hero-portrait-shade"></div>
+          </div>
+        </div>
+
+        <div class="hero-intro">
+          <p>
+            We build digital experiences made to be felt, not just viewed. From
+            the opening frame to the final click,
+          </p>
+          <p>
+            every detail is tuned to feel clear, cinematic, and impossible to
+            forget.
+          </p>
+        </div>
+
+        <div class="hero-scrolldown">
+          <span></span>
+        </div>
+      </section>
+
+      <!-- ───── ABOUT / MANIFESTO ───── -->
+      <section class="about" id="about">
+        <div class="about-ticker">
+          <div class="about-ticker-track">
+            <h4>
+              Motion With Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft
+              Without Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motion With
+              Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Without
+              Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motion With
+              Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Without
+              Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motion With
+              Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Without
+              Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </h4>
+          </div>
+        </div>
+        <h2 class="about-title">
+          <span class="at-line"><em>Made</em>To Move</span>
+          <span class="at-line">Built&nbsp;&nbsp;To Stay</span>
+        </h2>
+        <p class="about-reveal reveal-words">
+          We don't ship pages, we craft journeys people want to wander through.
+          Every micro-interaction, every easing curve, every pixel is placed
+          with purpose so the result feels fluid, alive, and worth returning to.
+        </p>
+      </section>
+
+      <!-- ───── STATS ───── -->
+      <section class="stats">
+        <div class="flame flame-top">
+          <span></span><span></span><span></span>
+        </div>
+
+        <div class="stat-row">
+          <h2 class="stat-num" data-count="12">0<i>+</i></h2>
+          <p class="stat-caption reveal-words">
+            Every project a new puzzle. Every solution a little sharper.
+          </p>
+        </div>
+        <div class="stat-row">
+          <h2 class="stat-num" data-count="40">0<i>+</i></h2>
+          <p class="stat-caption reveal-words">
+            Every idea pushed past the expected.
+          </p>
+        </div>
+        <div class="stat-row">
+          <h2 class="stat-num" data-count="8">0<i>+</i></h2>
+          <p class="stat-caption reveal-words">
+            Always learning. Never standing still.
+          </p>
+        </div>
+
+        <div class="stat-labels">
+          <span>PROJECTS</span><span>PARTNERS</span><span>YEARS</span>
+        </div>
+        <div class="flame flame-bottom">
+          <span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- ───── SERVICES ───── -->
+      <section class="services" id="services">
+        <p class="services-intro reveal-words">
+          Design earns the first glance. Code earns the second. We merge both
+          crafts so a site doesn't just look striking, it responds instantly,
+          moves naturally, and stays in memory.
+        </p>
+
+        <div class="marquee marquee-a">
+          <div class="marquee-track">
+            <img
+              src="assets/uploads/service-1.jpg" onerror="this.onerror=null;this.src='assets/service-1.svg'"
+              alt="Motion service visual"
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt="Brand service visual"
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt="Web service visual"
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+              alt="Helios Atelier project visual"
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+              alt="Arc Motors project visual"
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-1.jpg" onerror="this.onerror=null;this.src='assets/service-1.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+              alt=""
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+              alt=""
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+        <div class="marquee marquee-b">
+          <div class="marquee-track">
+            <img
+              src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+              alt="Studio Null project visual"
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+              alt="Cinder Coffee project visual"
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+              alt="Signalwave project visual"
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+              alt=""
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+              alt=""
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+              alt=""
+              width="640"
+              height="400"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt=""
+              width="480"
+              height="640"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+
+        <div class="service-tabs">
+          <button class="service-tab hoverable is-active" data-tab="0">
+            MOTION
+          </button>
+          <button class="service-tab hoverable" data-tab="1">BRAND</button>
+          <button class="service-tab hoverable" data-tab="2">WEB</button>
+        </div>
+
+        <div class="service-panels">
+          <div class="service-panel is-active" data-panel="0">
+            <h3>Motion</h3>
+            <p>
+              Scroll-driven stories, title sequences and kinetic type that give
+              a brand a pulse. Built with GSAP, tuned for smoothness and sized
+              to stay fast on a phone.
+            </p>
+          </div>
+          <div class="service-panel" data-panel="1">
+            <h3>Brand</h3>
+            <p>
+              Identity systems, art direction and launch assets with one clear
+              voice. Every mark, colour and frame is chosen to be recognised
+              before it is explained.
+            </p>
+          </div>
+          <div class="service-panel" data-panel="2">
+            <h3>Web</h3>
+            <p>
+              Fast, responsive front-ends with real interactions, accessible
+              markup and no unnecessary weight. Static-first, easy to host and
+              easy to update.
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-marquee">
+          <div class="skill-track">
+            <span>ArtDirection</span><i>✦</i><span>MotionDesign</span><i>✦</i
+            ><span>InteractionDesign</span><i>✦</i><span>FrontendEngineering</span
+            ><i>✦</i><span>WebGL</span><i>✦</i><span>GSAPAnimation</span
+            ><i>✦</i><span>Performance</span><i>✦</i><span>DesignSystems</span
+            ><i>✦</i><span>ArtDirection</span><i>✦</i><span>MotionDesign</span
+            ><i>✦</i><span>InteractionDesign</span><i>✦</i
+            ><span>FrontendEngineering</span><i>✦</i><span>WebGL</span><i>✦</i
+            ><span>GSAPAnimation</span><i>✦</i><span>Performance</span><i>✦</i
+            ><span>DesignSystems</span><i>✦</i>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───── THE FALL ───── -->
+      <section class="fall">
+        <div class="fall-tear"></div>
+        <div class="fall-figure" id="fallFigure">
+          <svg
+            viewBox="0 0 100 100"
+            width="90"
+            height="90"
+            fill="none"
+            stroke="#f4f1ea"
+            stroke-width="3"
+            stroke-linecap="round"
+          >
+            <circle cx="50" cy="22" r="9" />
+            <path d="M50 31 L46 58" />
+            <path d="M48 40 L26 30 M48 40 L72 26" />
+            <path d="M46 58 L30 78 M46 58 L66 80" />
+          </svg>
+        </div>
+        <p class="fall-line reveal-words">
+          The fall was always part of the arc.
+        </p>
+        <p class="fall-line fall-line-2 reveal-words">
+          And from the ground up, everything was rebuilt with intent.
+        </p>
+      </section>
+
+      <!-- ───── GALLERY / CONTRIBUTION ───── -->
+      <section class="gallery">
+        <div class="gallery-copy">
+          <h2 class="gallery-title">craft<br />with intention</h2>
+          <p class="reveal-words">
+            Every setback carried a lesson, and every lesson became a
+            foundation. What started as scattered experiments slowly turned into
+            a language of design, motion, and code that speaks for itself.
+          </p>
+          <div class="gallery-meta">
+            <h3>Selected</h3>
+            <span>Work</span>
+          </div>
+        </div>
+        <div class="gallery-ring hoverable" id="galleryRing">
+          <svg class="ring-text" viewBox="0 0 200 200">
+            <defs>
+              <path
+                id="circlePath"
+                d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"
+              />
+            </defs>
+            <text>
+              <textPath href="#circlePath">
+                MOTION ✦ CRAFT ✦ IMPACT ✦ MOTION ✦ CRAFT ✦ IMPACT ✦ MOTION ✦ CRAFT ✦ IMPACT ✦
+              </textPath>
+            </text>
+          </svg>
+          <span class="ring-view">VIEW</span>
+        </div>
+      </section>
+
+      <!-- ───── WORK (HORIZONTAL) ───── -->
+      <section class="work" id="work">
+        <div class="work-pin">
+          <div class="work-head">
+            <h2 class="work-title">Selected work</h2>
+            <span class="work-hint">Scroll to explore</span>
+          </div>
+          <div class="work-track" id="workTrack">
+            <article class="work-card hoverable">
+              <span class="work-index">01</span>
+              <img
+                src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+                alt="Helios Atelier"
+                width="640"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="work-info">
+                <h3>HELIOS ATELIER</h3>
+                <span>E-COMMERCE — 2026</span>
+              </div>
+            </article>
+            <article class="work-card hoverable">
+              <span class="work-index">02</span>
+              <img
+                src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+                alt="Arc Motors"
+                width="640"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="work-info">
+                <h3>ARC MOTORS</h3>
+                <span>3D LANDING — 2026</span>
+              </div>
+            </article>
+            <article class="work-card hoverable">
+              <span class="work-index">03</span>
+              <img
+                src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+                alt="Studio Null"
+                width="640"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="work-info">
+                <h3>STUDIO NULL</h3>
+                <span>PORTFOLIO — 2025</span>
+              </div>
+            </article>
+            <article class="work-card hoverable">
+              <span class="work-index">04</span>
+              <img
+                src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+                alt="Cinder Coffee"
+                width="640"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="work-info">
+                <h3>CINDER COFFEE</h3>
+                <span>BRAND SITE — 2025</span>
+              </div>
+            </article>
+            <article class="work-card hoverable">
+              <span class="work-index">05</span>
+              <img
+                src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+                alt="Signalwave"
+                width="640"
+                height="400"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="work-info">
+                <h3>SIGNALWAVE</h3>
+                <span>WEB APP — 2024</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ───── PROCESS ───── -->
+      <section class="process">
+        <div class="process-step">
+          <span class="ps-num">01</span>
+          <h2 class="ps-title">Discovery</h2>
+          <p class="reveal-words">
+            Great work starts with listening. We dig into your vision, your
+            audience, and your goals until the real problem, and the real
+            opportunity, comes into focus.
+          </p>
+        </div>
+        <div class="process-step">
+          <span class="ps-num">02</span>
+          <h2 class="ps-title">Creative&nbsp;&nbsp;Direction</h2>
+          <p class="reveal-words">
+            Concepts grow through research, wireframes, moodboards, motion
+            studies, and systems thinking. Nothing is decorative by accident;
+            every choice serves the story the product needs to tell.
+          </p>
+        </div>
+        <div class="process-step">
+          <span class="ps-num">03</span>
+          <h2 class="ps-title">Digital&nbsp;&nbsp;Craftsmanship</h2>
+          <p class="reveal-words">
+            With direction locked, we translate design into living code.
+            Interactions, transitions, and every line underneath are engineered
+            for speed, accessibility, and durability.
+          </p>
+        </div>
+        <div class="process-step">
+          <span class="ps-num">04</span>
+          <h2 class="ps-title">Launch&nbsp;&nbsp;&amp;&nbsp;&nbsp;Evolution</h2>
+          <p class="reveal-words">
+            Shipping is chapter one, not the ending. We measure, refine, and
+            iterate so the product keeps growing with your audience and keeps
+            earning its place.
+          </p>
+        </div>
+
+        <div class="process-outro">
+          <div class="process-standing">
+            <img
+              src="assets/uploads/standing.jpg" onerror="this.onerror=null;this.src='assets/standing.svg'"
+              alt="Abstract process figure"
+              width="600"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+          <p class="reveal-words">
+            Nothing here runs on autopilot. Strategy, design, and engineering
+            move as one process, each stage sharpening the last, until the final
+            experience is bold to look at, precise underneath, and built to be
+            remembered.
+          </p>
+        </div>
+      </section>
+
+      <!-- ───── BIG STATEMENT ───── -->
+      <section class="statement">
+        <h2 class="statement-title reveal-words-big">
+          From the First Spark to the Final Pixel, Every Stage Is Shaped to
+          Leave a Mark That Refuses to Fade.
+        </h2>
+      </section>
+
+      <!-- ───── BLOG ───── -->
+      <section class="blog" id="blog">
+        <div class="blog-head">
+          <h2 class="blog-title">
+            <span>FIELD</span><span class="bt-outline">NOTES</span>
+          </h2>
+          <p class="reveal-words">
+            Field notes from the studio: design experiments, front-end
+            discoveries, motion breakdowns, and honest process stories. Ideas
+            start rough here, get tested in public, and grow into work worth
+            talking about.
+          </p>
+        </div>
+        <div class="blog-grid">
+          <article class="blog-card hoverable">
+            <div class="bc-img">
+              <img
+                src="assets/uploads/blog-1.jpg" onerror="this.onerror=null;this.src='assets/blog-1.svg'"
+                alt="The weight of motion"
+                width="480"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <h3>The Weight of Motion</h3>
+            <span class="bc-date">July 1, 2026</span>
+          </article>
+          <article class="blog-card hoverable">
+            <div class="bc-img">
+              <img
+                src="assets/uploads/blog-2.jpg" onerror="this.onerror=null;this.src='assets/blog-2.svg'"
+                alt="Designing for the dark"
+                width="480"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <h3>Designing for the Dark</h3>
+            <span class="bc-date">June 14, 2026</span>
+          </article>
+          <article class="blog-card hoverable">
+            <div class="bc-img">
+              <img
+                src="assets/uploads/blog-3.jpg" onerror="this.onerror=null;this.src='assets/blog-3.svg'"
+                alt="Interfaces that breathe"
+                width="480"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <h3>Interfaces That Breathe</h3>
+            <span class="bc-date">May 22, 2026</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- ───── ENDING ───── -->
+      <section class="ending">
+        <h2 class="ending-title reveal-letters">
+          Every Frame Is A Chance To Make Them Feel Something.
+        </h2>
+      </section>
+
+      <!-- ───── CONTACT / FOOTER ───── -->
+      <footer class="contact" id="contact">
+        <div class="contact-ring hoverable" id="contactRing">
+          <svg class="ring-text" viewBox="0 0 200 200">
+            <defs>
+              <path
+                id="circlePath2"
+                d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"
+              />
+            </defs>
+            <text>
+              <textPath href="#circlePath2">
+                LET'S MAKE SOMETHING ✦ LET'S MAKE SOMETHING ✦
+              </textPath>
+            </text>
+          </svg>
+          <span class="ring-view">HI!</span>
+        </div>
+        <h2 class="contact-title">
+          <a
+            class="hoverable"
+            href="https://wa.me/923439787366?text=Hi%20Ali%2C%20I%27d%20like%20to%20discuss%20a%20project."
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="ct-line">GET IN</span>
+            <span class="ct-line ct-outline">TOUCH</span>
+          </a>
+        </h2>
+
+        <form class="contact-form" id="contactForm">
+          <div class="cf-field">
+            <label for="cfName">YOUR NAME</label>
+            <input
+              id="cfName"
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+              autocomplete="name"
+            />
+          </div>
+          <div class="cf-field">
+            <label for="cfMessage">PROJECT / MESSAGE</label>
+            <textarea
+              id="cfMessage"
+              name="message"
+              rows="3"
+              placeholder="Tell Ali what you have in mind"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="cf-submit hoverable">
+            SEND ON WHATSAPP
+          </button>
+          <p class="cf-note" id="cfNote">
+            Opens WhatsApp with your message ready to send.
+          </p>
+        </form>
+
+        <div class="contact-bottom">
+          <div class="cb-col">
+            <span class="menu-label">PHONE</span>
+            <a class="hoverable" href="tel:+923439787366">03439787366</a>
+          </div>
+          <div class="cb-col cb-socials">
+            <span class="menu-label">SOCIAL</span>
+            <div>
+              <a
+                class="hoverable"
+                href="https://www.tiktok.com/@gc_yahya?_r=1&amp;_t=ZS-9BJeT4EZwq0"
+                target="_blank"
+                rel="noopener"
+                >TIKTOK</a
+              >
+              <a
+                class="hoverable"
+                href="https://wa.me/923439787366"
+                target="_blank"
+                rel="noopener"
+                >WHATSAPP</a
+              >
+            </div>
+          </div>
+          <div class="cb-col">
+            <span class="menu-label">LOCAL TIME</span>
+            <span id="localTime">--:--</span>
+          </div>
+          <button class="cb-top hoverable" id="backToTop">BACK TO TOP ↑</button>
+        </div>
+        <div class="contact-credit">
+          © 2026 ALI — MOTION, CRAFT &amp; IMPACT<br />
+          <span class="template-credit"
+            >Rebranded from an MIT-licensed template — see
+            <a href="CREDITS.md">CREDITS</a>.</span
+          >
+        </div>
+      </footer>
+    </main>
+
+    <!-- ═══════════ DETAIL MODAL ═══════════ -->
+    <div class="detail-modal" id="detailModal" aria-hidden="true">
+      <div class="dm-backdrop" data-close></div>
+      <div
+        class="dm-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="dmTitle"
+      >
+        <button class="dm-close hoverable" data-close aria-label="Close">×</button>
+        <div class="dm-img"><img id="dmImg" alt="" /></div>
+        <span class="dm-meta" id="dmMeta"></span>
+        <h3 id="dmTitle"></h3>
+        <p id="dmBody"></p>
+        <a
+          class="dm-link hoverable"
+          id="dmLink"
+          href="https://www.tiktok.com/@gc_yahya?_r=1&amp;_t=ZS-9BJeT4EZwq0"
+          target="_blank"
+          rel="noopener"
+          >SEE MORE ON TIKTOK →</a
+        >
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

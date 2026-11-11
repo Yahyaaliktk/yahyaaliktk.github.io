@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" width="480" height="640" role="img" aria-label="BRAND">
+<defs>
+<linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#211d16"/><stop offset=".55" stop-color="#14110d"/><stop offset="1" stop-color="#0a0a0a"/>
+</linearGradient>
+<radialGradient id="gl4" cx="50%" cy="38%" r="62%">
+<stop offset="0" stop-color="#f4f1ea" stop-opacity=".20"/><stop offset="1" stop-color="#f4f1ea" stop-opacity="0"/>
+</radialGradient>
+<pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+<path d="M40 0H0V40" fill="none" stroke="#f4f1ea" stroke-opacity=".05"/>
+</pattern>
+</defs>
+<rect width="480" height="640" fill="url(#bg4)"/>
+<rect width="480" height="640" fill="url(#grid4)"/>
+<rect width="480" height="640" fill="url(#gl4)"/>
+
+<circle cx="240.0" cy="268.8" r="57.599999999999994" fill="none" stroke="#f4f1ea" stroke-opacity="0.18" stroke-width="1.4"/><circle cx="240.0" cy="268.8" r="96.0" fill="none" stroke="#f4f1ea" stroke-opacity="0.18" stroke-width="1.4"/><circle cx="240.0" cy="268.8" r="134.4" fill="none" stroke="#f4f1ea" stroke-opacity="0.18" stroke-width="1.4"/><circle cx="240.0" cy="268.8" r="172.79999999999998" fill="none" stroke="#f4f1ea" stroke-opacity="0.18" stroke-width="1.4"/>
+<path d="M240 51 V512" stroke="#f4f1ea" stroke-opacity=".18"/>
+<path d="M48 269 H432" stroke="#f4f1ea" stroke-opacity=".18"/>
+<rect x="202" y="218" width="77" height="77" fill="#f4f1ea" opacity=".10" transform="rotate(45 240 269)"/>
+
+<text x="28" y="614" fill="#f4f1ea" fill-opacity=".55" font-family="Archivo, Arial, sans-serif" font-size="13" letter-spacing="4">BRAND</text>
+</svg>
