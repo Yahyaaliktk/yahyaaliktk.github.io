@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════
-   ALI — MOTION, CRAFT & IMPACT
+   YAHYA ALI — MOTION, CRAFT & IMPACT
    Dark cinematic theme · GSAP + Lenis
    ═══════════════════════════════════════════ */
 
@@ -40,6 +40,33 @@ body {
   font-family: var(--font-body);
   overflow-x: hidden;
   cursor: none;
+}
+
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 10000;
+  padding: 12px 18px;
+  background: var(--fg);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  transform: translateY(-180%);
+  transition: transform 0.2s ease;
+}
+.skip-link:focus-visible {
+  transform: translateY(0);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 a {
@@ -321,6 +348,7 @@ body.cursor-hover .cursor-ring span {
   letter-spacing: 0.14em;
   text-transform: uppercase;
   line-height: 1;
+  white-space: nowrap;
 }
 .logo-dot {
   color: var(--accent);
@@ -651,6 +679,18 @@ body.menu-open .menu-links li:nth-child(6) .menu-link {
     rgba(10, 10, 10, 0.55) 100%
   );
 }
+.hero-name {
+  position: relative;
+  z-index: 2;
+  margin: 0 0 10px;
+  font-family: var(--font-huge);
+  font-size: clamp(44px, 9vw, 140px);
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+}
 .hero-roles {
   position: relative;
   z-index: 2;
@@ -732,7 +772,7 @@ body.menu-open .menu-links li:nth-child(6) .menu-link {
   white-space: nowrap;
   will-change: transform;
 }
-.about-ticker-track h4 {
+.about-ticker-track .about-ticker-text {
   font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.3em;

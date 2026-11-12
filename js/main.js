@@ -1,5 +1,5 @@
 /* ═══════════════════════════════════════════
-   ALI — MOTION, CRAFT & IMPACT
+   YAHYA ALI — MOTION, CRAFT & IMPACT
    GSAP + ScrollTrigger + Lenis smooth scroll
    ═══════════════════════════════════════════ */
 
@@ -425,17 +425,27 @@ gsap.from(".ct-line", {
 });
 
 /* ───────── MENU TOGGLE ───────── */
-document.getElementById("menuToggle").addEventListener("click", () => {
-  document.body.classList.toggle("menu-open");
-  if (document.body.classList.contains("menu-open")) lenis.stop();
+const menuToggle = document.getElementById("menuToggle");
+const menuOverlay = document.getElementById("menuOverlay");
+function setMenu(open) {
+  document.body.classList.toggle("menu-open", open);
+  menuToggle.setAttribute("aria-expanded", String(open));
+  menuToggle.setAttribute("aria-label", open ? "Close menu" : "Open menu");
+  menuOverlay.setAttribute("aria-hidden", String(!open));
+  menuOverlay.inert = !open;
+  if (open) lenis.stop();
   else lenis.start();
-});
-document.querySelectorAll(".menu-link").forEach((l) =>
-  l.addEventListener("click", () => {
-    document.body.classList.remove("menu-open");
-    lenis.start();
-  }),
+}
+menuToggle.addEventListener("click", () =>
+  setMenu(!document.body.classList.contains("menu-open")),
 );
+document.querySelectorAll(".menu-link").forEach((l) =>
+  l.addEventListener("click", () => setMenu(false)),
+);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && document.body.classList.contains("menu-open"))
+    setMenu(false);
+});
 
 /* ───────── BACK TO TOP ───────── */
 document
@@ -486,7 +496,7 @@ if (contactForm) {
     const name = String(data.get("name") || "").trim();
     const message = String(data.get("message") || "").trim();
     if (!name || !message) return;
-    const text = `Hi Ali, I'm ${name}. ${message}`;
+    const text = `Hi Yahya, I'm ${name}. ${message}`;
     window.open(
       `https://wa.me/923439787366?text=${encodeURIComponent(text)}`,
       "_blank",

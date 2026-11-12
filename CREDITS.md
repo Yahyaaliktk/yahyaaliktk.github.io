@@ -7,7 +7,7 @@ This project is a rebranded derivative of the **Immersive Dark Portfolio Templat
 
 The original MIT copyright notice and permission notice are kept in `LICENSE` as
 required by the license. All original branding, copy, photographs and image
-assets have been replaced with new ALI content and generated SVG artwork.
+assets have been replaced with new Yahya Ali content and generated artwork.
 The remaining HTML, CSS and JavaScript are used and modified under the MIT
 License.
 

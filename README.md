@@ -1,7 +1,10 @@
-# ALI
+# Yahya Ali — Web Developer Portfolio
 
-A cinematic, scroll-driven one-page studio site. Pure HTML, CSS and vanilla JS,
-powered by GSAP ScrollTrigger and Lenis smooth scroll. No build step.
+Live: https://yahyaaliktk.github.io/
+
+A cinematic, scroll-driven one-page portfolio for Yahya Ali (`yahyaaliktk`).
+Pure HTML, CSS and vanilla JS, powered by GSAP ScrollTrigger and Lenis smooth
+scroll. No build step.
 
 ## Run locally
 
@@ -18,7 +21,8 @@ Then open http://localhost:8000
 index.html      all content
 css/style.css   theme + responsive layout
 js/main.js      GSAP + Lenis interactions
-assets/         generated SVG artwork (lightweight)
+assets/         SVG fallbacks, favicon, social preview
+assets/uploads/ WebP photos used by the site
 LICENSE         MIT license (original notice retained)
 CREDITS.md      attribution and dependency licenses
 ```
@@ -27,13 +31,15 @@ CREDITS.md      attribution and dependency licenses
 
 - Colors: `:root` variables in `css/style.css` (`--bg`, `--fg`, `--accent`)
 - Copy, name, email, socials: `index.html`
-- Images: replace the SVGs in `assets/` (keep the same filenames)
+- Images: replace the WebP files in `assets/uploads/` (keep the same filenames).
+  Missing files fall back to the matching SVG in `assets/`.
 - Animation feel: durations and eases in `js/main.js`
 
 ## Performance notes
 
-- All artwork is local SVG; total site size is under 200 KB.
-- Images below the fold use `loading="lazy"` and fixed dimensions.
+- Local WebP images with lightweight SVG fallbacks.
+- Hero image is eager/high priority; below-the-fold images are lazy-loaded with
+  fixed dimensions to avoid layout shift.
 - Custom cursor and liquid trail only run on fine-pointer devices.
 - `prefers-reduced-motion` disables smooth scroll, cursor effects and CSS
   animations.

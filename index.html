@@ -4,71 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0a0a0a" />
-    <title>ALI — Motion, Brand &amp; Creative Studio</title>
+    <title>Yahya Ali (yahyaaliktk) | Web Developer Portfolio</title>
     <meta
       name="description"
-      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+      content="Yahya Ali (yahyaaliktk) is a web developer building fast, cinematic, mobile-first websites. Explore selected work in web, motion and brand design."
     />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://yahyaaliktk.github.io/gc_yahya/" />
+    <meta name="author" content="Yahya Ali" />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <link rel="canonical" href="https://yahyaaliktk.github.io/" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="me" href="https://github.com/yahyaaliktk" />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="ALI" />
+    <meta property="og:site_name" content="Yahya Ali" />
+    <meta property="og:locale" content="en_US" />
     <meta
       property="og:title"
-      content="ALI — Motion, Brand &amp; Creative Studio"
+      content="Yahya Ali (yahyaaliktk) | Web Developer Portfolio"
     />
     <meta
       property="og:description"
-      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+      content="Yahya Ali (yahyaaliktk) is a web developer building fast, cinematic, mobile-first websites. Explore selected work in web, motion and brand design."
     />
-    <meta property="og:url" content="https://yahyaaliktk.github.io/gc_yahya/" />
+    <meta property="og:url" content="https://yahyaaliktk.github.io/" />
     <meta
       property="og:image"
-      content="https://yahyaaliktk.github.io/gc_yahya/assets/og.png"
+      content="https://yahyaaliktk.github.io/assets/og.png"
     />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta
       property="og:image:alt"
-      content="ALI — motion, brand and web"
+      content="Yahya Ali — web developer portfolio"
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="ALI — Motion, Brand &amp; Creative Studio"
+      content="Yahya Ali (yahyaaliktk) | Web Developer Portfolio"
     />
     <meta
       name="twitter:description"
-      content="Ali — motion, brand and creative web experiences. Cinematic design, smooth scroll and a portfolio built to be felt."
+      content="Yahya Ali (yahyaaliktk) is a web developer building fast, cinematic, mobile-first websites. Explore selected work in web, motion and brand design."
     />
     <meta
       name="twitter:image"
-      content="https://yahyaaliktk.github.io/gc_yahya/assets/og.png"
+      content="https://yahyaaliktk.github.io/assets/og.png"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Yahya Ali — web developer portfolio"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
     <link
       href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@300;400;500;600;700&family=Six+Caps&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/uploads/portrait.webp"
+      type="image/webp"
+    />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Person",
-        "name": "Ali",
-        "url": "https://yahyaaliktk.github.io/gc_yahya/",
-        "jobTitle": "Motion Director, Brand Designer & Creative Coder",
+        "@id": "https://yahyaaliktk.github.io/#person",
+        "name": "Yahya Ali",
+        "alternateName": "yahyaaliktk",
+        "url": "https://yahyaaliktk.github.io/",
+        "jobTitle": "Web Developer",
+        "description": "Yahya Ali (yahyaaliktk) is a web developer building fast, cinematic, mobile-first websites.",
+        "image": "https://yahyaaliktk.github.io/assets/og.png",
         "telephone": "+92-343-9787366",
+        "knowsAbout": [
+          "Web Development",
+          "Frontend Engineering",
+          "Motion Design",
+          "Brand Design"
+        ],
         "sameAs": [
-          "https://www.tiktok.com/@gc_yahya",
-          "https://github.com/Yahyaaliktk"
+          "https://github.com/yahyaaliktk",
+          "https://www.tiktok.com/@gc_yahya"
         ]
       }
     </script>
   </head>
   <body>
+    <a class="skip-link" href="#home">Skip to content</a>
+
     <!-- ═══════════ LIQUID CURSOR (goo filter) ═══════════ -->
     <svg class="goo-defs" width="0" height="0" aria-hidden="true">
       <defs>
@@ -84,7 +111,7 @@
         </filter>
       </defs>
     </svg>
-    <div class="goo-cursor" id="gooCursor">
+    <div class="goo-cursor" id="gooCursor" aria-hidden="true">
       <span class="goo-dot"></span>
       <span class="goo-dot"></span>
       <span class="goo-dot"></span>
@@ -96,13 +123,13 @@
     </div>
 
     <!-- ═══════════ CUSTOM CURSOR ═══════════ -->
-    <div class="cursor-dot" id="cursorDot"></div>
-    <div class="cursor-ring" id="cursorRing"><span>VIEW</span></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"><span>VIEW</span></div>
 
     <!-- ═══════════ PRELOADER ═══════════ -->
-    <div class="preloader" id="preloader">
+    <div class="preloader" id="preloader" aria-hidden="true">
       <div class="preloader-logo">
-        <span class="pl-letter">A</span><span class="pl-letter">L</span>
+        <span class="pl-letter">Y</span><span class="pl-letter">A</span>
       </div>
       <div class="preloader-counter" id="plCounter">000</div>
       <div class="preloader-cta">TAP ANYWHERE TO ENTER</div>
@@ -112,14 +139,20 @@
     <!-- ═══════════ FIXED HEADER ═══════════ -->
     <header class="site-header">
       <a href="#home" class="header-logo hoverable">
-        <span class="logo-text">ALI<span class="logo-dot">.</span></span>
-        <span class="online-pill"><span class="online-dot"></span>STUDIO</span>
+        <span class="logo-text">YAHYA ALI<span class="logo-dot">.</span></span>
+        <span class="online-pill"><span class="online-dot"></span>WEB DEV</span>
       </a>
       <div class="header-right">
         <a href="#contact" class="connect-btn hoverable"
           ><span>Start a Project</span></a
         >
-        <button class="menu-toggle hoverable" id="menuToggle" aria-label="Menu">
+        <button
+          class="menu-toggle hoverable"
+          id="menuToggle"
+          aria-label="Open menu"
+          aria-controls="menuOverlay"
+          aria-expanded="false"
+        >
           <span class="mt-line"></span>
           <span class="mt-line"></span>
         </button>
@@ -127,7 +160,13 @@
     </header>
 
     <!-- ═══════════ FULLSCREEN MENU ═══════════ -->
-    <nav class="menu-overlay" id="menuOverlay">
+    <nav
+      class="menu-overlay"
+      id="menuOverlay"
+      aria-label="Main menu"
+      aria-hidden="true"
+      inert
+    >
       <div class="menu-bg-word">MENU</div>
       <div class="menu-inner">
         <ul class="menu-links">
@@ -250,6 +289,13 @@
                 rel="noopener"
                 >WHATSAPP</a
               >
+              <a
+                class="hoverable"
+                href="https://github.com/yahyaaliktk"
+                target="_blank"
+                rel="noopener"
+                >GITHUB</a
+              >
             </div>
           </div>
         </div>
@@ -259,7 +305,7 @@
     <!-- ═══════════ MAIN ═══════════ -->
     <main id="smooth-content">
       <!-- ───── HERO ───── -->
-      <section class="hero" id="home">
+      <section class="hero" id="home" tabindex="-1">
         <div class="hero-cols">
           <div class="hero-col">
             <svg
@@ -332,17 +378,19 @@
         </div>
 
         <div class="hero-center">
+          <h1 class="hero-name">Yahya Ali</h1>
           <div class="hero-roles" id="heroRoles">
-            <h1 class="hero-role is-active">MOTION DIRECTOR</h1>
-            <h1 class="hero-role">BRAND DESIGNER</h1>
-            <h1 class="hero-role">CREATIVE CODER</h1>
+            <p class="hero-role is-active">WEB DEVELOPER</p>
+            <p class="hero-role">MOTION DESIGNER</p>
+            <p class="hero-role">CREATIVE CODER</p>
           </div>
           <div class="hero-portrait">
             <img
-              src="assets/uploads/portrait.jpg" onerror="this.onerror=null;this.src='assets/portrait.svg'"
-              alt="Abstract ALI studio portrait"
+              src="assets/uploads/portrait.webp" onerror="this.onerror=null;this.src='assets/portrait.svg'"
+              alt="Portrait of Yahya Ali"
               width="600"
               height="800"
+              fetchpriority="high"
               decoding="async"
             />
             <div class="hero-portrait-shade"></div>
@@ -351,7 +399,7 @@
 
         <div class="hero-intro">
           <p>
-            We build digital experiences made to be felt, not just viewed. From
+            I build digital experiences made to be felt, not just viewed. From
             the opening frame to the final click,
           </p>
           <p>
@@ -369,7 +417,7 @@
       <section class="about" id="about">
         <div class="about-ticker">
           <div class="about-ticker-track">
-            <h4>
+            <div class="about-ticker-text">
               Motion With Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft
               Without Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motion With
               Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Without
@@ -378,7 +426,7 @@
               Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Motion With
               Meaning.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Craft Without
               Noise.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            </h4>
+            </div>
           </div>
         </div>
         <h2 class="about-title">
@@ -386,7 +434,7 @@
           <span class="at-line">Built&nbsp;&nbsp;To Stay</span>
         </h2>
         <p class="about-reveal reveal-words">
-          We don't ship pages, we craft journeys people want to wander through.
+          I don't ship pages, I craft journeys people want to wander through.
           Every micro-interaction, every easing curve, every pixel is placed
           with purpose so the result feels fluid, alive, and worth returning to.
         </p>
@@ -399,19 +447,19 @@
         </div>
 
         <div class="stat-row">
-          <h2 class="stat-num" data-count="12">0<i>+</i></h2>
+          <div class="stat-num" data-count="12">0<i>+</i></div>
           <p class="stat-caption reveal-words">
             Every project a new puzzle. Every solution a little sharper.
           </p>
         </div>
         <div class="stat-row">
-          <h2 class="stat-num" data-count="40">0<i>+</i></h2>
+          <div class="stat-num" data-count="40">0<i>+</i></div>
           <p class="stat-caption reveal-words">
             Every idea pushed past the expected.
           </p>
         </div>
         <div class="stat-row">
-          <h2 class="stat-num" data-count="8">0<i>+</i></h2>
+          <div class="stat-num" data-count="8">0<i>+</i></div>
           <p class="stat-caption reveal-words">
             Always learning. Never standing still.
           </p>
@@ -428,7 +476,7 @@
       <!-- ───── SERVICES ───── -->
       <section class="services" id="services">
         <p class="services-intro reveal-words">
-          Design earns the first glance. Code earns the second. We merge both
+          Design earns the first glance. Code earns the second. I merge both
           crafts so a site doesn't just look striking, it responds instantly,
           moves naturally, and stays in memory.
         </p>
@@ -436,7 +484,7 @@
         <div class="marquee marquee-a">
           <div class="marquee-track">
             <img
-              src="assets/uploads/service-1.jpg" onerror="this.onerror=null;this.src='assets/service-1.svg'"
+              src="assets/uploads/service-1.webp" onerror="this.onerror=null;this.src='assets/service-1.svg'"
               alt="Motion service visual"
               width="480"
               height="640"
@@ -444,7 +492,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              src="assets/uploads/service-2.webp" onerror="this.onerror=null;this.src='assets/service-2.svg'"
               alt="Brand service visual"
               width="480"
               height="640"
@@ -452,7 +500,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              src="assets/uploads/service-3.webp" onerror="this.onerror=null;this.src='assets/service-3.svg'"
               alt="Web service visual"
               width="480"
               height="640"
@@ -460,7 +508,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+              src="assets/uploads/work-1.webp" onerror="this.onerror=null;this.src='assets/work-1.svg'"
               alt="Helios Atelier project visual"
               width="640"
               height="400"
@@ -468,7 +516,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+              src="assets/uploads/work-2.webp" onerror="this.onerror=null;this.src='assets/work-2.svg'"
               alt="Arc Motors project visual"
               width="640"
               height="400"
@@ -476,40 +524,40 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/service-1.jpg" onerror="this.onerror=null;this.src='assets/service-1.svg'"
-              alt=""
+              src="assets/uploads/service-1.webp" onerror="this.onerror=null;this.src='assets/service-1.svg'"
+              alt="Motion design service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
-              alt=""
+              src="assets/uploads/service-2.webp" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt="Brand design service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
-              alt=""
+              src="assets/uploads/service-3.webp" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt="Web development service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
-              alt=""
+              src="assets/uploads/work-1.webp" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+              alt="Helios Atelier e-commerce project visual"
               width="640"
               height="400"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
-              alt=""
+              src="assets/uploads/work-2.webp" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+              alt="Arc Motors 3D landing page visual"
               width="640"
               height="400"
               loading="lazy"
@@ -520,7 +568,7 @@
         <div class="marquee marquee-b">
           <div class="marquee-track">
             <img
-              src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+              src="assets/uploads/work-3.webp" onerror="this.onerror=null;this.src='assets/work-3.svg'"
               alt="Studio Null project visual"
               width="640"
               height="400"
@@ -528,7 +576,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+              src="assets/uploads/work-4.webp" onerror="this.onerror=null;this.src='assets/work-4.svg'"
               alt="Cinder Coffee project visual"
               width="640"
               height="400"
@@ -536,7 +584,7 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+              src="assets/uploads/work-5.webp" onerror="this.onerror=null;this.src='assets/work-5.svg'"
               alt="Signalwave project visual"
               width="640"
               height="400"
@@ -544,56 +592,56 @@
               decoding="async"
             />
             <img
-              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
-              alt=""
+              src="assets/uploads/service-3.webp" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt="Web development service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
-              alt=""
+              src="assets/uploads/service-2.webp" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt="Brand design service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
-              alt=""
+              src="assets/uploads/work-3.webp" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+              alt="Studio Null portfolio project visual"
               width="640"
               height="400"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
-              alt=""
+              src="assets/uploads/work-4.webp" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+              alt="Cinder Coffee brand website visual"
               width="640"
               height="400"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
-              alt=""
+              src="assets/uploads/work-5.webp" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+              alt="Signalwave web app project visual"
               width="640"
               height="400"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/service-3.jpg" onerror="this.onerror=null;this.src='assets/service-3.svg'"
-              alt=""
+              src="assets/uploads/service-3.webp" onerror="this.onerror=null;this.src='assets/service-3.svg'"
+              alt="Web development service visual"
               width="480"
               height="640"
               loading="lazy"
               decoding="async"
             />
             <img
-              src="assets/uploads/service-2.jpg" onerror="this.onerror=null;this.src='assets/service-2.svg'"
-              alt=""
+              src="assets/uploads/service-2.webp" onerror="this.onerror=null;this.src='assets/service-2.svg'"
+              alt="Brand design service visual"
               width="480"
               height="640"
               loading="lazy"
@@ -722,7 +770,7 @@
             <article class="work-card hoverable">
               <span class="work-index">01</span>
               <img
-                src="assets/uploads/work-1.jpg" onerror="this.onerror=null;this.src='assets/work-1.svg'"
+                src="assets/uploads/work-1.webp" onerror="this.onerror=null;this.src='assets/work-1.svg'"
                 alt="Helios Atelier"
                 width="640"
                 height="400"
@@ -737,7 +785,7 @@
             <article class="work-card hoverable">
               <span class="work-index">02</span>
               <img
-                src="assets/uploads/work-2.jpg" onerror="this.onerror=null;this.src='assets/work-2.svg'"
+                src="assets/uploads/work-2.webp" onerror="this.onerror=null;this.src='assets/work-2.svg'"
                 alt="Arc Motors"
                 width="640"
                 height="400"
@@ -752,7 +800,7 @@
             <article class="work-card hoverable">
               <span class="work-index">03</span>
               <img
-                src="assets/uploads/work-3.jpg" onerror="this.onerror=null;this.src='assets/work-3.svg'"
+                src="assets/uploads/work-3.webp" onerror="this.onerror=null;this.src='assets/work-3.svg'"
                 alt="Studio Null"
                 width="640"
                 height="400"
@@ -767,7 +815,7 @@
             <article class="work-card hoverable">
               <span class="work-index">04</span>
               <img
-                src="assets/uploads/work-4.jpg" onerror="this.onerror=null;this.src='assets/work-4.svg'"
+                src="assets/uploads/work-4.webp" onerror="this.onerror=null;this.src='assets/work-4.svg'"
                 alt="Cinder Coffee"
                 width="640"
                 height="400"
@@ -782,7 +830,7 @@
             <article class="work-card hoverable">
               <span class="work-index">05</span>
               <img
-                src="assets/uploads/work-5.jpg" onerror="this.onerror=null;this.src='assets/work-5.svg'"
+                src="assets/uploads/work-5.webp" onerror="this.onerror=null;this.src='assets/work-5.svg'"
                 alt="Signalwave"
                 width="640"
                 height="400"
@@ -804,7 +852,7 @@
           <span class="ps-num">01</span>
           <h2 class="ps-title">Discovery</h2>
           <p class="reveal-words">
-            Great work starts with listening. We dig into your vision, your
+            Great work starts with listening. I dig into your vision, your
             audience, and your goals until the real problem, and the real
             opportunity, comes into focus.
           </p>
@@ -822,7 +870,7 @@
           <span class="ps-num">03</span>
           <h2 class="ps-title">Digital&nbsp;&nbsp;Craftsmanship</h2>
           <p class="reveal-words">
-            With direction locked, we translate design into living code.
+            With direction locked, I translate design into living code.
             Interactions, transitions, and every line underneath are engineered
             for speed, accessibility, and durability.
           </p>
@@ -831,7 +879,7 @@
           <span class="ps-num">04</span>
           <h2 class="ps-title">Launch&nbsp;&nbsp;&amp;&nbsp;&nbsp;Evolution</h2>
           <p class="reveal-words">
-            Shipping is chapter one, not the ending. We measure, refine, and
+            Shipping is chapter one, not the ending. I measure, refine, and
             iterate so the product keeps growing with your audience and keeps
             earning its place.
           </p>
@@ -840,7 +888,7 @@
         <div class="process-outro">
           <div class="process-standing">
             <img
-              src="assets/uploads/standing.jpg" onerror="this.onerror=null;this.src='assets/standing.svg'"
+              src="assets/uploads/standing.webp" onerror="this.onerror=null;this.src='assets/standing.svg'"
               alt="Abstract process figure"
               width="600"
               height="800"
@@ -872,7 +920,7 @@
             <span>FIELD</span><span class="bt-outline">NOTES</span>
           </h2>
           <p class="reveal-words">
-            Field notes from the studio: design experiments, front-end
+            Field notes from my practice: design experiments, front-end
             discoveries, motion breakdowns, and honest process stories. Ideas
             start rough here, get tested in public, and grow into work worth
             talking about.
@@ -882,7 +930,7 @@
           <article class="blog-card hoverable">
             <div class="bc-img">
               <img
-                src="assets/uploads/blog-1.jpg" onerror="this.onerror=null;this.src='assets/blog-1.svg'"
+                src="assets/uploads/blog-1.webp" onerror="this.onerror=null;this.src='assets/blog-1.svg'"
                 alt="The weight of motion"
                 width="480"
                 height="600"
@@ -896,7 +944,7 @@
           <article class="blog-card hoverable">
             <div class="bc-img">
               <img
-                src="assets/uploads/blog-2.jpg" onerror="this.onerror=null;this.src='assets/blog-2.svg'"
+                src="assets/uploads/blog-2.webp" onerror="this.onerror=null;this.src='assets/blog-2.svg'"
                 alt="Designing for the dark"
                 width="480"
                 height="600"
@@ -910,7 +958,7 @@
           <article class="blog-card hoverable">
             <div class="bc-img">
               <img
-                src="assets/uploads/blog-3.jpg" onerror="this.onerror=null;this.src='assets/blog-3.svg'"
+                src="assets/uploads/blog-3.webp" onerror="this.onerror=null;this.src='assets/blog-3.svg'"
                 alt="Interfaces that breathe"
                 width="480"
                 height="600"
@@ -952,7 +1000,7 @@
         <h2 class="contact-title">
           <a
             class="hoverable"
-            href="https://wa.me/923439787366?text=Hi%20Ali%2C%20I%27d%20like%20to%20discuss%20a%20project."
+            href="https://wa.me/923439787366?text=Hi%20Yahya%2C%20I%27d%20like%20to%20discuss%20a%20project."
             target="_blank"
             rel="noopener"
           >
@@ -979,14 +1027,14 @@
               id="cfMessage"
               name="message"
               rows="3"
-              placeholder="Tell Ali what you have in mind"
+              placeholder="Tell Yahya what you have in mind"
               required
             ></textarea>
           </div>
           <button type="submit" class="cf-submit hoverable">
             SEND ON WHATSAPP
           </button>
-          <p class="cf-note" id="cfNote">
+          <p class="cf-note" id="cfNote" aria-live="polite">
             Opens WhatsApp with your message ready to send.
           </p>
         </form>
@@ -1013,6 +1061,13 @@
                 rel="noopener"
                 >WHATSAPP</a
               >
+              <a
+                class="hoverable"
+                href="https://github.com/yahyaaliktk"
+                target="_blank"
+                rel="noopener"
+                >GITHUB</a
+              >
             </div>
           </div>
           <div class="cb-col">
@@ -1022,7 +1077,7 @@
           <button class="cb-top hoverable" id="backToTop">BACK TO TOP ↑</button>
         </div>
         <div class="contact-credit">
-          © 2026 ALI — MOTION, CRAFT &amp; IMPACT<br />
+          © 2026 YAHYA ALI — MOTION, CRAFT &amp; IMPACT<br />
           <span class="template-credit"
             >Rebranded from an MIT-licensed template — see
             <a href="CREDITS.md">CREDITS</a>.</span
@@ -1041,7 +1096,7 @@
         aria-labelledby="dmTitle"
       >
         <button class="dm-close hoverable" data-close aria-label="Close">×</button>
-        <div class="dm-img"><img id="dmImg" alt="" /></div>
+        <div class="dm-img"><img id="dmImg" alt="Selected project preview" /></div>
         <span class="dm-meta" id="dmMeta"></span>
         <h3 id="dmTitle"></h3>
         <p id="dmBody"></p>
